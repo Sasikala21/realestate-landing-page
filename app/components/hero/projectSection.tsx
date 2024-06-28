@@ -155,12 +155,12 @@ const ProjectSection = () => {
                             <h1>Our recent projects</h1>
                         </Grid>
                         <Grid item xs={6} className={styles.project_section_nav_icon}>
-                            <NavigateBeforeIcon 
+                            <NavigateBeforeIcon
                                 className={styles.project_section_prev_nav_icon}
                                 onClick={handlePrevious}
                             />
                             &nbsp; &nbsp;
-                            <NavigateNextIcon 
+                            <NavigateNextIcon
                                 className={styles.project_section_next_nav_icon}
                                 onClick={handleNext}
                             />
@@ -172,13 +172,16 @@ const ProjectSection = () => {
                 {projectData.slice(currentIndex, currentIndex + itemsPerPage).map((project, index) => (
                     <Grid item xs={4} className={styles.section_one_item} key={index}>
                         <Card className={styles.projectsCard}>
-                            <Image 
-                                src={project.src} 
-                                width={447} 
-                                height={263} 
-                                alt='section-one-img' 
-                                className={styles.projects_image_section} 
-                            />
+                            <div className={styles.imageContainer}>
+                                <Image
+                                    src={project.src}
+                                    width={447}
+                                    height={263}
+                                    alt='section-one-img'
+                                    className={styles.projects_image_section}
+                                />
+                                <div className={styles.overlay}></div>
+                            </div>
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
                             <Grid container spacing={1}>

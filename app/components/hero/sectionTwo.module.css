@@ -1,0 +1,103 @@
+.section_two {
+    margin-top: 100px;
+}
+
+.section_two h1 {
+    text-align: center;
+    position: relative;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 52px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.section_two p {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.section_two_item {
+    margin-left: 80px;
+}
+
+.customButton,
+.customButton:hover {
+    border-radius: 40px;
+    background-color: black;
+    width: 140px;
+    height: 62px;
+    color: white;
+}
+
+.customButton1 {
+    margin-left: 20px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid #BEBEBE;
+    width: 140px;
+    height: 62px;
+    color: black;
+}
+
+.customButton1:hover {
+    margin-left: 20px;
+    border-radius: 40px;
+    background-color: black;
+    width: 140px;
+    height: 62px;
+    color: white;
+}
+
+.section_two h2 {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.section_two a {
+    position: relative;
+    width: 474px;
+    height: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    margin-top: -10px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.section_two_image_section {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 578px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%);
+    z-index: 1;
+    border-radius: 12px;
+}
+
+.imageContainer img {
+    z-index: 0;
+}

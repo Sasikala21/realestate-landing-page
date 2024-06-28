@@ -1,0 +1,48 @@
+.footer_section {
+    margin-top: 100px;
+    width: 1770px;
+    height: 380px;
+    text-align: left;
+    background-image: url('../../../public/footer_section.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 15px;
+    border-radius: 15px;
+    position: absolute;
+}
+.footer_section h1 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 47px;
+}
+.footer_section p {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+}
+.image_section{
+    margin-top: -80px;
+    margin-left: 330px;
+    width: 555px;
+    height: 527px;
+}
+.customTextField {
+    width:469px;
+    height: 60px;
+    border-radius: 36px;
+    margin-left: 50px;
+    padding-left: 30px;
+    text-align: start;
+}
+.customButton, .customButton:hover{
+    border-radius: 60px;
+    background-color: black;
+    width: 140px;
+    height: 62px;
+    margin-left: -142px;
+    color:white;
+    font-weight: bold;
+}

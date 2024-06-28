@@ -1,0 +1,84 @@
+.project_section {
+    margin-top: 100px;
+    padding-left: 100px !important;
+}
+
+.project_section h1 {
+    position: relative;
+    top:-20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+.projectsCard{
+    width: 447px;
+    height: 458px;
+    left:30px;
+    border-radius: 4px;
+    /* margin-top: 130px; */
+}
+
+.project_section h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 30px;
+}
+.project_section p {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 30px;
+}
+.project_section a {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    padding-right: 30px;
+    padding-top: -10px !important;
+}
+.starRating {
+    display:flex;
+    gap: 4px;
+    padding-left: 30px;
+}
+.project_section_nav_icon{
+    align-items: flex-end;
+    padding-left: 700px !important;
+}
+.project_section_next_nav_icon, .project_section_prev_nav_icon:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 100px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.projects_image_section {
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 578px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%);
+    z-index: 1;
+    border-radius: 12px;
+}
+
+.imageContainer img {
+    z-index: 0;
+}

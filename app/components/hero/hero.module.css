@@ -1,0 +1,49 @@
+.hero_section {
+    /* margin-top: -30px; */
+    width: 1780px;
+    height: 517px;
+    text-align: left;
+    background-image: url('../../../public/footer_section.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 15px;
+    border-radius: 15px;
+    position: absolute;
+}
+.hero_section h1 {
+    margin-left: 110px;
+    font-weight: 600;
+    font-size: 67px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+.hero_section p{
+    margin-left: 110px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.hero_image_section{
+    margin-top: -20px;
+    margin-left: 110px;
+    width: 785px;
+    height: 667px;
+}
+.customTextField {
+    width:469px;
+    height: 60px;
+    border-radius: 36px;
+    margin-left: 110px;
+    padding-left: 30px;
+    text-align: start;
+}
+.customButton, .customButton:hover{
+    border-radius: 60px;
+    background-color: black;
+    width: 140px;
+    height: 62px;
+    margin-left: -142px;
+    color:white;
+    font-weight: bold;
+}

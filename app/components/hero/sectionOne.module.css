@@ -1,0 +1,23 @@
+.section_one {
+    margin-top: 700px;
+    text-align: center;
+}
+
+.section_one_item {
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 150px !important;
+}
+
+.section_one h1 {
+    position: relative;
+    width: 788px;
+    height: 60px;
+    left: calc(50% - 788px/2);
+    top:-10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}

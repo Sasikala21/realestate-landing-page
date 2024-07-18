@@ -1,25 +1,60 @@
-.header-section{
+.header-section {
     margin-bottom: 30px;
 }
-.customButton{
+
+.customButton {
     border-radius: 40px;
     width: 140px;
     height: 55px;
     margin-left: 132px;
-    color:black;
+    color: black;
     border: 2px solid #BEBEBE;
     font-style: normal;
 }
-.customButton:hover{
+
+.customButton:hover {
     border-radius: 40px;
     width: 140px;
     height: 55px;
     margin-left: 132px;
     background-color: black;
-    color:white;
+    color: white;
     font-style: normal;
 }
+
 .logo {
     padding-left: 10px;
     padding-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+    .customButton {
+        /* Adjust button styles for smaller screens */
+        width: 120px;
+        height: 45px;
+        margin-left: 0; /* Adjust margin as needed */
+    }
+
+    .logo {
+        padding-left: 5px; /* Adjust padding for logo */
+        padding-top: 5px;
+    }
+
+    /* Adjust grid layout for smaller screens */
+    .header-section {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .customButton {
+        width: 100px;
+        height: 40px;
+    }
+
+    .logo {
+        padding-left: 2px;
+        padding-top: 2px;
+    }
 }

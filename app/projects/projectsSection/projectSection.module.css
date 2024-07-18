@@ -13,8 +13,8 @@
     color: #000000;
 }
 .projectsCard{
-    width: 447px;
-    height: 458px;
+    width: 1447px;
+    height: 350px;
     left:30px;
     border-radius: 12px;
 }
@@ -33,14 +33,14 @@
     line-height: 160%;
     color: #000000;
     padding-left: 30px;
+    text-align: justify;
 }
 .project_section a {
     font-style: normal;
     font-size: 24px;
-    line-height: 120%;
+    line-height: 200%;
     color: #000000;
-    padding-right: 30px;
-    padding-top: -10px !important;
+    padding-left: 30px;
 }
 .starRating {
     display:flex;
@@ -59,6 +59,7 @@
 
 .imageContainer {
     position: relative;
+    background-size: cover;
 }
 
 .projects_image_section {
@@ -69,7 +70,7 @@
     top: 0;
     left: 0;
     width: 447px;
-    height: 262px;
+    height: 350px;
     background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%);
     z-index: 1;
     border-radius: 12px;

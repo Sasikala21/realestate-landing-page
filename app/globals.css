@@ -13,9 +13,10 @@
 } */
 
 body {
-  padding: 10px;  
-  font-family:'Courier New', Courier, monospace;
+  /* padding: 10px;   */
+  font-family: 'Poppins', sans-serif;
 }
+
 /* @layer utilities {
   .text-balance {
     text-wrap: balance;

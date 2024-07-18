@@ -1,9 +1,10 @@
 .hero_section {
     /* margin-top: -30px; */
-    width: 1780px;
+    width: 1870px;
     height: 517px;
     text-align: left;
-    background-image: url('../../../public/footer_section.png');
+    background: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    /* background-image: url('../../../public/footer_section.png'); */
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,8 +14,9 @@
 }
 .hero_section h1 {
     margin-left: 110px;
+    line-height: 70px;
     font-weight: 600;
-    font-size: 67px;
+    font-size: 57px;
     margin-bottom: -5px;
     margin-top: -5px;
 }
@@ -26,17 +28,18 @@
 }
 .hero_image_section{
     margin-top: -20px;
-    margin-left: 110px;
+    margin-left: 155px;
     width: 785px;
     height: 667px;
 }
 .customTextField {
-    width:469px;
+    width:390px;
     height: 60px;
     border-radius: 36px;
     margin-left: 110px;
     padding-left: 30px;
     text-align: start;
+    border-color: black;
 }
 .customButton, .customButton:hover{
     border-radius: 60px;

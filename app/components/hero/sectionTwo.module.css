@@ -17,9 +17,10 @@
     position: relative;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 24px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .section_two_item {
@@ -33,6 +34,11 @@
     width: 140px;
     height: 62px;
     color: white;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
 }
 
 .customButton1 {
@@ -43,6 +49,12 @@
     width: 140px;
     height: 62px;
     color: black;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
 }
 
 .customButton1:hover {
@@ -59,20 +71,20 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 67px;
     color: #000000;
     margin-top: 50px;
     margin-bottom: 10px;
+    line-height: 80px;
 }
 
 .section_two a {
     position: relative;
     width: 474px;
     height: 120px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 16px;
     line-height: 24px;
     margin-top: -10px;
 }

@@ -123,11 +123,12 @@ const ProjectSection = () => {
         { src: "/image3.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.83 },
         { src: "/image4.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.13 },
         { src: "/image5.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 3.83 },
-        { src: "/image3.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.03 },
-        { src: "/image4.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 3.13 },
-        { src: "/image5.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 2.83 },
-        { src: "/image3.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 2.33 },
-        { src: "/image4.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 1.83 },
+        { src: "/image7.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.03 },
+        { src: "/image8.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 3.13 },
+        { src: "/image9.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 2.83 },
+        { src: "/image10.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 2.33 },
+        { src: "/image11.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.83 },
+        { src: "/image7.png", title: "Sobha Heartland II Villas", description: "Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.", rating: 4.03 },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -151,10 +152,10 @@ const ProjectSection = () => {
                 <Grid item xs={12}>
                     <span>Best Project of the Years</span>
                     <Grid container spacing={1}>
-                        <Grid item xs={6}>
+                        <Grid item xs={12} sm={12} md={12} xl={6} lg={6} >
                             <h1>Our recent projects</h1>
                         </Grid>
-                        <Grid item xs={6} className={styles.project_section_nav_icon}>
+                        <Grid item xs={12} sm={12} md={12} xl={6} lg={6} className={styles.project_section_nav_icon}>
                             <NavigateBeforeIcon
                                 className={styles.project_section_prev_nav_icon}
                                 onClick={handlePrevious}
@@ -170,7 +171,7 @@ const ProjectSection = () => {
             </Grid>
             <Grid container spacing={6}>
                 {projectData.slice(currentIndex, currentIndex + itemsPerPage).map((project, index) => (
-                    <Grid item xs={4} className={styles.section_one_item} key={index}>
+                    <Grid item xs={12} sm={12} md={12} lg={4} xl={4} className={styles.section_one_item} key={index}>
                         <Card className={styles.projectsCard}>
                             <div className={styles.imageContainer}>
                                 <Image

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../header/header.module.css';
 import { Grid, Button } from '@mui/material';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
     return (
@@ -20,10 +21,14 @@ const Header = () => {
                     </svg>
                 </Grid>
                 <Grid item xs={1}>
-                    <p>About us</p>
+                    <Link href="/about">
+                        <p>About us</p>
+                    </Link>
                 </Grid>
                 <Grid item xs={1}>
-                    <p>Projects</p>
+                    <Link href="/projects">
+                        <p>Projects</p>
+                    </Link>
                 </Grid>
                 <Grid item xs={1}>
                     <p>Agents</p>
